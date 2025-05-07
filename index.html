@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Split Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="global/scripts/script.js" defer></script>
+    <link rel="stylesheet" href="global/css/global.css">
+</head>
+
+<body class="h-screen flex flex-col">
+    <header class="p-4">
+        <img src="global/img/logo_negative.png" alt="Blank Research Logo" width="100">
+    </header>
+    <div class="flex flex-1 -mt-10">
+        <div
+            class="w-1/4 p-4 font-palanquan-darkregular text-3xl space-y-4 flex flex-col justify-center items-start -mt-20 ml-8">
+            <div class="cursor-pointer" onclick="showContent('vision')">Our vision</div>
+            <div class="cursor-pointer" onclick="showContent('products')">Products we built</div>
+        </div>
+        <div id="content" class="w-3/4 px-6 font-albert-sans-regular">
+            <div id="vision" class="hidden ">
+                <div class="stack " style="--stacks: 3;">
+                    <span style="--index: 0;">Our vision</span>
+                    <span style="--index: 1;">Our vision</span>
+                    <span style="--index: 2;">Our vision</span>
+                </div>
+
+                <div class="text-gray-900 text-opacity-90 text-xl w-5/6 flex flex-col items-start justify-center mt-4">
+                    <span class="font-palanquan-darkregular text-xl nowrap">9 out of 10 startups go out of
+                        business,</span>
+                    and
+                    the
+                    main 3
+                    reasons
+                    are
+                    always : vision, technology and
+                    funds. <br>
+                    They spend a lot of time and money building
+                    a product that no one asked for. <br>
+                    Our goal is to help founders prevent that, by bringing our expertise into their hands. <br><br>
+
+                    <span class="nowrap">We start by <span class="font-palanquan-darkregular">curating the founder's
+                            vision</span>
+                        and turn it into
+                        actionable features. <br></span>
+                    We then conduct a meticulous market research to make sure we build something
+                    customers want, and we iterate over the features until we're certain we have a product-market-fit.
+                    <br>
+                    <span class="nowrap">Then <span class="font-palanquan-darkregular">we build
+                            a product out of
+                            that</span> by
+                        designing it, deploying
+                        it, and maintaining the load as
+                        we bring more users on board. Iterating, iterating, and iterating until we have a robust and
+                        scalable
+                        platform capable of hundling millions of users.<br><br></span>
+
+                    Users are an important part of our work. We keep them engaged by building proper community channels.
+                    We talk
+                    to them, know the early adopters and make sure their voice is heard, as they help us reshape our
+                    product. <br><br>
+                    <span class="nowrap">Lastly, <span class="font-palanquan-darkregular">we define a suitable
+                            monetization
+                            strategy</span> that draws
+                        a
+                        steady and clear path of
+                        your company's future. <br><br></span>
+
+
+
+                    <span class="nowrap">To put it simply, <span class="font-palanquan-darkregular"> <mark>we
+                                make the founders go
+                                from a
+                                fuzzy idea to their first dollar,</mark></span> all by building a
+                        clear business model, a robust product and a satisfied community, at the
+                        lowest
+                        costs possible. </span>
+                    <br>
+
+                    <span class="nowrap">If you are interested in working with us, <a
+                            href="mailto:youssef@blankresearch.com" class="text-blue-800 underline">let's have a
+                            chat</a></span>
+                    .
+
+
+
+
+
+
+                </div>
+                <div class="flex flex-row gap-4">
+                    <a href="https://www.linkedin.com/company/blankresearch/"
+                        class="flex items-center justify-center w-12 h-12 bg-gray-100 text-black rounded-full hover:text-gray-200 cursor-pointer z-10"
+                        target="_blank" rel="noopener noreferrer">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V24h-4V8.5zM8.5 8.5h3.5v2.1h.05c.49-.94 1.69-1.93 3.45-1.93 3.69 0 4.5 2.43 4.5 5.59V24h-4v-6.98c0-1.67-.03-3.81-2.33-3.81-2.34 0-2.7 1.83-2.7 3.7V24h-4V8.5z" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/blankresearch"
+                        class="flex items-center justify-center w-12 h-12 bg-gray-100 text-black rounded-full hover:bg-gray-200 cursor-pointer z-10"
+                        target="_blank" rel="noopener noreferrer">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.94.58.11.79-.25.79-.56v-2.17c-3.2.7-3.87-1.4-3.87-1.4-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.74 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.72 0-1.26.45-2.3 1.2-3.12-.12-.29-.52-1.45.12-3.03 0 0 .97-.31 3.18 1.2a11 11 0 0 1 5.8 0C17.5 4.83 18.47 5.15 18.47 5.15c.64 1.58.24 2.74.12 3.03.75.82 1.2 1.86 1.2 3.12 0 4.45-2.68 5.42-5.24 5.7.42.36.79 1.09.79 2.2v3.26c0 .31.21.68.8.56A10.51 10.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z" />
+                        </svg>
+                    </a>
+                    <a href="mailto:youssef@blankresearch.com"
+                        class="flex items-center justify-center w-12 h-12 bg-gray-100 text-black rounded-full hover:bg-gray-200 cursor-pointer z-10"
+                        target="_blank" rel="noopener noreferrer">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 13.065L1.5 6.75V18h21V6.75L12 13.065zM12 11.25L22.5 5.25H1.5L12 11.25z" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="relative mr-20 px-20 -mt-20 flex justify-end">
+                    <img src="global/img/cover-banner.png" alt="Blank Research Logo" width="100" class="rounded-2xl">
+                    <img src="global/img/signature.png" alt="Signature" width="200"
+                        class="absolute -top-2 right-8 rounded-2xl">
+                </div>
+
+
+
+
+            </div>
+            <div id="products" class="hidden">
+                <div class="stack" style="--stacks: 3;">
+                    <span style="--index: 0;">Products we built</span>
+                    <span style="--index: 1;">Products we built</span>
+                    <span style="--index: 2;">Products we built</span>
+                </div>
+                <div class="flex flex-row gap-14 mt-4">
+                    <div>
+                        <div class="mb-4"> <span
+                                class="rounded-full px-3 py-1 border-green-700 text-green-700 border bg-green-100 bg-opacity-30 text-xs ">Open
+                                source</span></div>
+
+                        <img src="global/img/bookologia-logo.png" alt="Blank Research Logo" width="200"
+                            class="rounded-2xl">
+                        <div class="flex flex-col gap-1 mt-3">
+                            <div class="px-2 flex flex-col gap-1 mb-2 w-52">
+                                <span class="font-bellefair-regular text-xl">Bookologia</span>
+                                <span class="text-gray-700 text-opacity-80 text-sm break-words">A book search engine
+                                    to find any
+                                    book in seconds.</span>
+                            </div>
+                            <a href="https://github.com/blankresearch/Bookologia" target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-gray-700 bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
+                                <svg class="w-4 h-4 me-2 mb-1" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                Read code
+                            </a>
+
+
+
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="mb-4"> <span
+                                class="rounded-full px-3 py-1 border-green-700 text-green-700 border bg-green-100 bg-opacity-30 text-xs ">Open
+                                source</span></div>
+                        <img src="global/img/memory-logo.png" alt="Blank Research Logo" width="200" class="rounded-2xl">
+                        <div class="flex flex-col gap-1 mt-3">
+                            <div class="px-2 flex flex-col gap-1 mb-2 w-52">
+                                <span class="font-bellefair-regular text-xl">Memory</span>
+                                <span class="text-gray-700 text-opacity-80 text-sm">A note taking app, without
+                                    distractions.</span>
+                            </div>
+
+                            <a href="https://github.com/blankresearch/Memory" target="_blank" rel="noopener noreferrer"
+                                class="text-gray-700 bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
+                                <svg class="w-4 h-4 me-2 mb-1" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                Read code
+                            </a>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="mb-4"> <span
+                                class="rounded-full px-3 py-1 border-green-700 text-green-700 border bg-green-100 bg-opacity-30 text-xs ">Open
+                                source</span></div>
+                        <img src="global/img/done-logo.png" alt="Blank Research Logo" width="200" class="rounded-2xl">
+                        <div class="flex flex-col gap-1 mt-3">
+                            <div class="px-2 flex flex-col gap-1 mb-2 w-52">
+                                <span class="font-bellefair-regular text-xl">Done</span>
+                                <span class="text-gray-700 text-opacity-80 text-sm">A simple to do list, to get things
+                                    done.</span>
+                            </div>
+
+                            <a href="https://github.com/blankresearch/Done" target="_blank" rel="noopener noreferrer"
+                                class="text-gray-700 bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
+                                <svg class="w-4 h-4 me-2 mb-1" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                Read code
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
